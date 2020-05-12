@@ -1,0 +1,38 @@
+.beginner{
+	font: 20px/25px Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+}
+
+.beginner p{
+	text-indent: 40px;
+}
+
+.bg-box {
+	background: 
+	url(../images/grass.png) bottom / 300px repeat-x, 
+	url(../images/lamp.png) top / 60px repeat-x,
+	url(../images/Hedgehog.png) left / 40px repeat-y,
+	url(../images/donut.png) right / 40px repeat-y,
+	url(../images/dom.jpg) center/auto no-repeat;
+
+	background-color: green;
+	height: 710px;
+}
+
+div[class^='box'] {
+	width: 100px;
+	height: 100px;
+}
+
+.box1{
+	background: linear-gradient(to top, #008000 10px, #fff 10px, #fff 20px, #008000 20px, #008000 30px, #fff 30px, #fff 40px, #008000 40px, #008000 50px, #fff 50px, #fff 60px, #008000 60px, #008000 70px, #fff 70px, #fff 80px, #008000 80px, #008000 90px, #fff 90px, #fff 100px);
+}
+
+.box2{
+	background: linear-gradient(-45deg, #000, #000 30px, #aebcbf 30px, #aebcbf 115px, #000 115px)
+}
+
+.box3{
+	background: repeating-radial-gradient(circle, #f00, #f00 15px, #000 15px, #000 100px);
+}
