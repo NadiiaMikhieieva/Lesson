@@ -1,0 +1,88 @@
+*,*:before,*:after {
+	box-sizing: border-box;
+	padding: 2px;
+}
+.box1, .box2, .box3{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+.box{
+	position: relative;
+	height: 200px;
+}
+.box1{
+	background: #ff8888;
+}
+.box2{
+	background: #7e8aeb;
+	top: 40px;
+	left: 40px;
+}
+.box3{
+	background: #4def99;
+	top: 80px;
+	left: 80px;
+}
+h1{
+	position: fixed;
+	top: 50px;
+	right: 50px;
+}
+
+h2{
+	position: relative;
+	left: 20px;
+	bottom: 30px;
+}
+h3{
+	position: absolute;
+	left: 50px;
+	top: 100px;
+}
+.cards{
+	color: white;
+	font-size: 25px;
+	background: #0d5825;
+	text-align: center;
+	width: 500px;
+	height: 450px;
+	padding-top: 70px;
+}
+
+.ace1, .ace2, .ace3{
+	width: 150px;
+	position: relative;
+}
+
+.ace1{
+	transform: rotate(-20deg);
+	top: 0px;
+	left: 110px;
+}
+
+.ace2{ 
+	transform: rotate(-8deg);
+	top: 5px;
+ }
+
+.ace3{ 
+	transform: rotate(8deg);
+	right: 110px;
+	top: 20px;
+}
+
+.ace1:hover, .ace2:hover, .ace3:hover { 
+	transition: all 0.5s ease-out;
+}
+.ace1:hover{
+	transform: translateY(-20px) rotate(-20deg);
+}
+
+.ace2:hover{
+	transform: translateY(-20px) rotate(-8deg);
+}
+.ace3:hover{
+	transform: translateY(-20px) rotate(8deg);
+}
